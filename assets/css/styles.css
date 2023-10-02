@@ -5,11 +5,35 @@
     src: url('OldLondon.ttf') format('truetype');
   } 
 
+  @font-face {
+    font-family: 'garamond'; 
+    src: url('EBGaramond-Regular.ttf') format('truetype');
+  } 
+
 h1 {
     font-family:'old-london';
     text-align: center;
     font-size: 6rem !important; 
   }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  .title{
+    font-family:'garamond'; 
+    font-weight:bold;
+    font-size: 2rem;
+  }
+
+  .bar {
+    height: 3px; /* Set the height of the bar */
+    background-color: black; /* Set the color of the bar */
+    margin-top: 28px; /* Set the space above the bar */
+    width: 100%; /* Set the width of the bar */
+}
+
+
 
 
 
