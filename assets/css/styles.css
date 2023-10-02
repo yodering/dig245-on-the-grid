@@ -1,53 +1,46 @@
-
-/* css */
 @font-face {
     font-family: 'old-london'; 
     src: url('OldLondon.ttf') format('truetype');
-  } 
+}
 
-  @font-face {
+@font-face {
     font-family: 'garamond'; 
     src: url('EBGaramond-Regular.ttf') format('truetype');
-  } 
+}
 
 h1 {
-    font-family:'old-london';
+    font-family: 'old-london';
     text-align: center;
-    font-size: 6rem !important; 
-  }
+    font-size: 4rem !important; 
+}
 
-  p {
-    font-family: Georgia, 'Times New Roman', Times, serif
-  }
 
-  .title{
-    font-family:'garamond'; 
-    font-weight:bold;
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-family: 'garamond'; 
+    font-weight: bold;
     font-size: 2rem;
-  }
-
-  .bar {
-    height: 3px; /* Set the height of the bar */
-    background-color: black; /* Set the color of the bar */
-    margin-top: 28px; /* Set the space above the bar */
-    width: 100%; /* Set the width of the bar */
 }
 
-
-
-
-
-  @media (max-width: 768px) {  
-    h1 {font-size: 4rem;}
-    p {font-size: 1rem;}
+.bar {
+    height: 3px;
+    background-color: black;
+    margin-top: 28px;
+    width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {  
-    h1 {font-size: 5rem;}
-    p {font-size: 1rem;}
+.mt-28 {
+    margin-top: 28px !important; 
 }
 
-@media (min-width: 1200px) {  
-    h1 {font-size: 6rem;}
-    p {font-size: 1rem;}
+@media (max-width: 767px) { /* Adjust the break-point as necessary */
+    h1 {font-size: 5rem;} /* Adjusted font size for small screens */
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {  
+    h1 {font-size: 7rem;} /* Adjusted font size for medium screens */
+}
+
