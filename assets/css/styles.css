@@ -15,6 +15,7 @@ h1 {
 }
 
 
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -39,17 +40,6 @@ p {
 }
 
 
-@media (max-width: 576px) {
-    .order-sm-0 {
-        order: 0;
-    }
-    .order-sm-1 {
-        order: 1;
-    }
-    .order-sm-2 {
-        order: 2;
-    }
-}
 
 @media (max-width: 767px) { /* Adjust the break-point as necessary */
     h1 {font-size: 5rem;} /* Adjusted font size for small screens */
